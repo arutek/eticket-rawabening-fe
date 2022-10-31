@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-neutral-700">
+  <section class="w-96 mx-auto px-4 py-8">
     <RouterView />
-  </div>
+  </section>
 </template>
