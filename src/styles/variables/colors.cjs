@@ -1,8 +1,4 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
-  neutral: colors.neutral,
-  white: colors.white,
   'primary-0': '#0a0908',
   'primary-1': '#2b2d42',
   'primary-2': '#8d99ae',

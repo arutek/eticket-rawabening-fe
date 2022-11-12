@@ -1,4 +1,4 @@
-import { createRouter, createMemoryHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import essentials from './essentials'
 
 interface vueRouteType {
@@ -14,6 +14,6 @@ const routes:vueRouteType[] = [
 ]
 
 export default createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes: routes,
 })

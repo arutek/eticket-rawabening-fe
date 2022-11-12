@@ -28,7 +28,7 @@
       <h3>{{modalData.title}}</h3>
       <p class="mb-4">{{modalData.details}}</p>
       <div>
-        <button class="bg-primary-4 text-primary-3 rounded-full py-2 px-4">{{modalData.costCopy}}</button>
+        <RouterLink to="/create-ticket" class="bg-primary-4 text-primary-3 rounded-full py-2 px-4">{{modalData.costCopy}}</RouterLink>
       </div>
     </div>
   </section>

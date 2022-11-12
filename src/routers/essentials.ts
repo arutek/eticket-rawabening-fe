@@ -3,13 +3,13 @@ const CreateTicket = () => import('@/pages/CreateTicket.vue')
 
 export default [
   {
-    path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
     path: '/create-ticket',
     name: 'CreateTicket',
     component: CreateTicket,
+  },
+  {
+    path: '/',
+    name: 'Home',
+    component: Home,
   },
 ]
